@@ -1,0 +1,1428 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>微金所</title>
+    <script src="js/jquery-1.11.1.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/base.css">
+    <style>
+    </style>
+</head>
+<body>
+    <!-- 顶部 -->
+    <header id="header">
+        <div class="top hidden-sm hidden-xs">
+          <div class="container">
+            <div class="row " >
+              <div class="col-lg-2 col-md-2 ">
+               <a href="#">
+               <img src="img/c_06.jpg" alt="">
+               <i class="icon-mobilephone"></i>
+               <span>手机微金所</span>
+               <i class="glyphicon glyphicon-chevron-down"></i>
+               </a>
+              </div>
+              <div class="col-lg-5 col-md-5 tel">
+              <i class="icon-telephone"></i>
+              <span>4006-89-4006(服务时间 : 9:00-21:00)</span>
+              </div>
+              <div class="col-lg-2 col-md-2 title">
+              <a href="#">常见问题</a>
+              <a href="#">财富登录</a>
+              </div>
+              <div class="col-lg-3 col-md-3 title login">
+               <p class="info">
+                   <a href="#" class="btn btn-default">免费注册</a>
+                   <a href="#"  data-toggle="modal" data-target="#login">登录</a>
+               </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <nav class="navbar navbar-default navbar-nn navbar-static-top" data-spy="affix" data-offset-top="100" data-offset-bottom="200">
+            <div class='container'>
+               <div class='navbar-header'>              
+                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav_list" aria-expanded="false">
+                        <span class="sr-only">切换菜单</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                   </button>
+                   <a href='#' class='navbar-brand'>
+                         <i  class="icon-icon"></i>
+                         <i  class="icon-logo"></i>
+                   </a>
+              </div>   
+             <div id="nav_list" class="collapse navbar-collapse">
+                <ul class='nav navbar-nav'>                   
+                    <li class="active"><a href='#'>我要投资</a></li>
+                    <li><a href='#'>我要借款</a></li>
+                    <li><a href='#'>平台介绍</a></li>
+                    <li><a href='#'>新手专区</a></li>
+                    <li><a href='#'>最新动态</a></li>
+                    <li><a href='#'>微论坛</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right hidden-sm hidden-xs">
+                     <li><a href='#'>个人中心</a></li>
+                </ul>
+            </div>
+         </div>
+        </nav>
+   </header>
+   <!-- 广告轮播 -->
+   <section id="ads">
+            <div id="myCarousel" class="carousel slide">
+                <!-- 轮播（Carousel）指标 -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>   
+                <!-- 轮播（Carousel）项目 -->
+                <div class="carousel-inner">
+                    <div class="item active" data-image-lg="img/slide_01_2000x410.jpg" data-image-xs="img/slide_01_640x340.jpg"></div>
+                    <div class="item" data-image-lg="img/slide_02_2000x410.jpg" data-image-xs="img/slide_02_640x340.jpg"></div>
+                    <div class="item" data-image-lg="img/slide_03_2000x410.jpg" data-image-xs="img/slide_03_640x340.jpg"></div>
+                    <div class="item" data-image-lg="img/slide_04_2000x410.jpg" data-image-xs="img/slide_04_640x340.jpg"></div>
+                </div>
+                <!-- 轮播（Carousel）导航 -->
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+            </div>
+   </section>
+   <!-- 特色介绍 -->
+   <section id="special" class="hidden-xs ">
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-6 col-md-4">
+                  <a href="#">
+                      <i class="icon-uniE907"></i>
+                      <div class="spec-right">
+                          <h1>支付交易保证</h1>
+                          <span>银联支付全程保障资金安全</span>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                  <a href="#">
+                      <i class="icon-uniE903"></i>
+                      <div class="spec-right">
+                          <h1>平台财产安全</h1>
+                          <span>由PICC保驾护航</span>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                  <a href="#">
+                      <i class="icon-uniE901"></i>
+                      <div class="spec-right">
+                          <h1>交易安全</h1>
+                          <span>由中国人寿财险对借款人承保</span>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                  <a href="#">
+                      <i class="icon-uniE900"></i>
+                      <div class="spec-right">
+                          <h1>安全保障</h1>
+                          <span>独创八层安全保障机制</span>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                  <a href="#">
+                      <i class="icon-uniE904"></i>
+                      <div class="spec-right">
+                          <h1>筛选优质资产</h1>
+                          <span>对接上海资信征信系统</span>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                  <a href="#">
+                      <i class="icon-uniE902"></i>
+                      <div class="spec-right">
+                          <h1>联合信息发布</h1>
+                          <span>通过路透社共同发布利率指数报告</span>
+                      </div>
+                  </a>
+              </div>
+          </div>
+      </div>
+   </section>
+   <!-- 立即预约 -->
+   <section id="order">
+       <div class="container">
+           <div class="row">
+               <div class="col-md-9 order1">
+                   <i class="icon-uniE906"></i>
+                   <p>现在有<strong>458</strong>人在排队，累计预约交易成功<strong>7409</strong>次。<span class='toubiao'>什么是预约投标？</span><a href="#">立即预约</a></p>    
+               </div>
+               <div class="col-md-3 order2 hidden-xs hidden-sm">
+                   <i class="icon-uniE905"></i>
+                   <span>微金所企业宣传片</span>
+               </div>
+           </div>
+       </div>
+   </section>
+   <!-- 产品推荐 -->
+   <section id="product">
+        <div class="container">
+            <div class="wrapp">
+              <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#tab01" aria-controls="tab01" role="tab" data-toggle="tab">特别推荐</a></li>
+                <li role="presentation"><a href="#tab02" aria-controls="tab02" role="tab" data-toggle="tab">微投资</a></li>
+                <li role="presentation"><a href="#tab03" aria-controls="tab03" role="tab" data-toggle="tab">微小宝</a></li>
+                <li role="presentation"><a href="#tab04" aria-controls="tab04" role="tab" data-toggle="tab">微消费</a></li>
+                <li role="presentation"><a href="#tab05" aria-controls="tab05" role="tab" data-toggle="tab">微增利</a></li>
+                <li role="presentation"><a href="#tab06" aria-controls="tab06" role="tab" data-toggle="tab">微金宝</a></li>
+                <li role="presentation"><a href="#tab07" aria-controls="tab07" role="tab" data-toggle="tab">微转让</a></li>
+                <li role="presentation" class="pill-right more hidden-xs hidden-sm"><a href="#">更多</a></li>
+              </ul>
+            </div>
+              <!-- Tab panes -->
+              <div class="tab-content">
+                <div role="tabpanel" class="tab-pane  fade in active" id="tab01">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade " id="tab02">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        s</div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                            </div>
+                        </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade " id="tab03">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade " id="tab04">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="yueqi">
+                                <div class="wjb-header">
+                                     <h3>微金宝1月期</h3>
+                                     <strong>明星产品</strong>
+                                     <span>月付息到期还本</span>
+                                </div>
+                                <div class="wjb-middle">
+                                    <ul>
+                                        <li>
+                                          <strong>6.50%</strong>
+                                          <p>测算年化收益率</p>
+                                        </li>
+                                        <li>
+                                          <strong>1</strong>
+                                          <p>借款期限</p>
+                                        </li>
+                                        <li class="ktje">
+                                          <strong>0万</strong>
+                                          <p>可投金额</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button class="btn btn-default wjb-bottom">立即投资</button>
+                    </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade " id="tab05">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade " id="tab06">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade " id="tab07">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="yueqi">
+                            <div class="wjb-header">
+                                 <h3>微金宝1月期</h3>
+                                 <strong>明星产品</strong>
+                                 <span>月付息到期还本</span>
+                            </div>
+                            <div class="wjb-middle">
+                                <ul>
+                                    <li>
+                                      <strong>6.50%</strong>
+                                      <p>测算年化收益率</p>
+                                    </li>
+                                    <li>
+                                      <strong>1</strong>
+                                      <p>借款期限</p>
+                                    </li>
+                                    <li class="ktje">
+                                      <strong>0万</strong>
+                                      <p>可投金额</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-default wjb-bottom">立即投资</button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+        </div> 
+   </section>   
+   <!-- 新闻 -->
+   <section id="news">
+       <div class="container">
+           <div class="col-sm-12 col-md-2 col-md-offset-3 news ">
+              新闻区域
+           </div>
+           <div class="col-sm-12 col-md-1">
+             <ul class='nav nav-pills nav-stacked '>        
+                <li role="presentation" class="active"><a data-title="全部新闻" href="#news01" data-toggle="tab" role="tab"><i class="icon-news01"></i></a></li>
+                <li role="presentation"><a data-title="媒体新闻" href="#news02" data-toggle="tab" role="tab"><i class="icon-news02"></i></a></li>
+                <li role="presentation"><a data-title="行业资讯" href="#news03" data-toggle="tab" role="tab"><i class="icon-news03"></i></a></li>
+                <li role="presentation"><a data-title="XXXX" href="#news04" data-toggle="tab" role="tab"><i class="icon-news04"></i></a></li>
+             </ul>
+           </div>
+           <div class="col-sm-12 col-md-6">
+                <div class="tab-content">
+                <div role="tabpanel" class="tab-pane fade in active" id="news01">
+                  <ul>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                  </ul>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="news02">
+                  <ul>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                  </ul>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="news03">
+                  <ul>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                  </ul>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="news04">
+                  <ul>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                    <li>[微还款]2015年12月10日共23个项目按时完成全部还款</li>
+                  </ul>
+                </div>
+           </div>
+         </div>
+        </div>
+   </section>
+    <!-- 合作伙伴  -->
+   <section id="partner" class="hidden-sm hidden-xs">
+      <div class="container text-center">
+      <h3>合作伙伴</h3>
+          <ul class="center-block">
+            <li><a href="#"><i class="icon-uniE930"></i></a></li>
+            <li><a href="#"><i class="icon-uniE92F"></i></a></li>
+            <li><a href="#"><i class="icon-uniE92E"></i></a></li>
+            <li><a href="#"><i class="icon-uniE92A"></i></a></li>
+            <li><a href="#"><i class="icon-uniE929"></i></a></li>
+            <li><a href="#"><i class="icon-uniE931"></i></a></li>
+            <li><a href="#"><i class="icon-uniE92C"></i></a></li>
+            <li><a href="#"><i class="icon-uniE92B"></i></a></li>
+            <li><a href="#"><i class="icon-uniE92D"></i></a></li>
+          </ul>
+      </div>
+   </section>
+   <section id="footer">      
+   </section>
+   <!-- 模态框-登录 -->
+    <!-- Modal -->
+    <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title modal-header">登录微金所</h4>
+            <button type="button" class="close glyphicon glyphicon-remove-circle" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
+          </div>
+          <div class="modal-body">
+              <form action="" id="login-form">
+                  <div class='pic'></div>
+                  <p>用户名：<input type="text" placeholder="请输入您的手机号码"></p>
+                  <p>密 码 ： <input class="pass" type="password" placeholder="请输入您的密码"></p>
+                  <p class='sub'><input type="submit" value="登录"></p>
+              </form>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    
+
+
+
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.js"> </script>
+</body>
+</html>

@@ -1,0 +1,561 @@
+
+
+/*公共样式*/
+
+*{
+    margin:0px;
+    padding:0px;
+    font-size:10px;
+    font-family: "思源黑体","微软雅黑","Regular","Times New Roman",Georgia,Serif;
+}
+a:hover{
+   text-decoration:none;
+}
+li{
+  list-style:none;
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+}
+
+
+@font-face {
+  font-family: 'wjs';
+  src: url('../font/MiFie-Web-Font.eot') format('embedded-opentype'), url('../font/MiFie-Web-Font.svg') format('svg'), url('../font/MiFie-Web-Font.ttf') format('truetype'), url('../font/MiFie-Web-Font.woff') format('woff');
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: wjs;
+  font-style: normal;
+}
+
+.icon-mobilephone::before {
+  content: "\e908";
+  font-size: 13px;
+}
+
+.icon-telephone::before {
+  content: "\e909";
+  font-size: 15px;
+}
+
+.icon-logo::before {
+  content: "\e93e";
+}
+
+.icon-icon::before {
+  content: "\e920";
+}
+.icon-uniE905:before {
+  content: "\e905";
+}
+.icon-uniE906:before {
+  content: "\e906";
+}
+.icon-uniE92D:before {
+  content: "\e92D";
+}
+.icon-uniE92B:before {
+  content: "\e92B";
+}
+.icon-uniE92C:before {
+  content: "\e92C";
+}
+.icon-uniE931:before {
+  content: "\e931";
+}
+.icon-uniE929:before {
+  content: "\e929";
+}
+.icon-uniE92A:before {
+  content: "\e92A";
+}
+.icon-uniE92E:before {
+  content: "\e92E";
+}
+.icon-uniE92F:before {
+  content: "\e92F";
+}
+.icon-uniE930:before {
+  content: "\e930";
+}
+.icon-uniE900:before {
+  content: "\e900";
+}
+.icon-uniE901:before {
+  content: "\e901";
+}
+.icon-uniE902:before {
+  content: "\e902";
+}
+.icon-uniE903:before {
+  content: "\e903";
+}
+.icon-uniE904:before {
+  content: "\e904";
+}
+.icon-uniE907:before {
+  content: "\e907";
+}
+.icon-news01:before {
+  content: "\e90e";
+  font-size: 28px;
+  color: #EAEAEA;
+}
+
+.icon-news02:before {
+  content: "\e90f";
+  font-size: 28px;
+  color: #EAEAEA;
+}
+
+.icon-news03:before {
+  content: "\e910";
+  font-size: 28px;
+  color: #EAEAEA;
+}
+
+.icon-news04:before {
+  content: "\e911";
+  font-size: 28px;
+  color: #EAEAEA;
+}
+
+
+/* 头部区域 */
+#header > .top {
+  height: 40px;
+  border-bottom: 1px solid #c0c0c0;
+  line-height: 40px;
+  text-align:center;
+}
+
+#header > .top > .container > .row > div {
+  height: 40px;
+  font-size: 12px;
+  color: #888;
+}
+#header > .top > .container > .row > div + div {
+  border-left: 1px solid #c0c0c0;
+}
+#header .top a,#header .top span,#header .top i{
+  color: #888;
+  font-size:12px;
+}
+#header .top a > img {
+  display: none;
+  position: absolute;
+  left: 50%;
+  margin-left: -55px;
+  top: 30px;
+  z-index: 1001;
+}
+#header .top a:hover > img {
+  display: block;
+}
+#header .top .btn-default{
+    background: #E92322;
+    color:white;
+    margin-right:10px;
+}
+#header nav .icon-icon {
+  font-size: 40px;
+  color: #E92322;
+  line-height: 25px;
+  vertical-align: middle;
+}
+
+#header nav .icon-logo {
+  font-size: 25px;
+  color: #333;
+  line-height: 25px;
+  vertical-align: middle;
+}
+#header .navbar-default{
+  width:100%;
+  top:0;
+}
+/* 通栏广告轮播 */
+#ads{
+    margin-top:-20px;
+}
+#ads .carousel-inner > .item {
+    width:100%;
+    height:410px;
+}
+#ads .carousel-inner > .item {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+/* 特色介绍 */
+#special {
+  padding: 50px 0;
+  border-bottom: 1px solid #c0c0c0;
+}
+#special i {
+  font-size: 30px;
+  width:15%;
+  float:left;
+  margin-top:20px;
+}
+#special .spec-right{
+    width:85%;
+    float:right;
+}
+#special a h1{
+  font-size:20px;
+}
+#special > .container > .row > div > a {
+  color: #888;
+}
+#special > .container > .row > div > a:hover {
+  color: #666;
+  text-decoration: none;
+}
+/* 立即预约 */
+#order {
+  border-bottom: 1px solid #c0c0c0;
+  padding: 20px 0;
+}
+#order .order1{
+  width:80%;
+  float:left;
+}
+#order .order1 i{
+    width:20px;
+    float:left;
+}
+#order .order1 strong,#order .order1 a{
+    color:red;
+}
+#order .order2{
+  width:20%;
+  float:right;
+}
+
+/* 产品推荐 */
+
+#product {
+  background-color: #f0f0f0;
+  padding: 40px 0;
+  width:100%;
+}
+#product > .container > .wrapp > .nav-tabs{
+    border-bottom:1px solid #ccc;
+    height:50px;
+}
+#product > .container > .wrapp > .nav-tabs > li {
+  background: #f0f0f0;
+}
+#product > .container > .wrapp > .nav-tabs > li > a {
+  font-size: 16px;
+  height:49px;
+  color: #333;
+}
+#product .nav-tabs > li.active > a{
+    border:none;
+    background: none;
+    border-bottom:2px solid red;
+}
+#product .more{
+    float:right;
+}
+#product .tab-content{
+    margin-top:20px;
+}
+#product .yueqi{
+    height:250px;
+    background: #E6E6E6;
+    margin-top:20px;
+}
+#product .yueqi .wjb-header h3{
+    width:40%;
+    float:left;
+    height:30px;
+    font-size:20px;
+    margin-left:5%;
+}
+#product .yueqi .wjb-header strong{
+   width:20%;
+   float:right;
+   height:30px;
+   line-height:30px;
+   margin-top:20px;
+   margin-right:30%;
+   background: #C72C31;
+   border-radius:10px;  
+   text-align:center;
+   color:white;
+}
+#product .yueqi .wjb-header span{
+    width:100%;
+    float:left;
+    margin-left:5%;
+}
+#product .yueqi .wjb-middle ul{
+    width:100%;
+    float:left;
+    margin-top:25px;
+    text-align: center;
+    position:relative;
+}
+#product .yueqi .wjb-middle ul li{
+    float:left;
+    width:30%;
+    border-right:1px dashed #ccc;
+    margin-left:5px;
+}
+#product .yueqi .wjb-middle ul li strong{
+    font-size:25px;
+    color:#999;
+}
+#product .yueqi .wjb-bottom{
+    width:50%;
+    float:left;
+    margin-left:20%;
+    margin-top:3%;
+    background: #8A8A8A;
+    color:white;
+    border-radius: 5px;
+}
+#product .yueqi:after{
+    content:"已售罄";
+    position:absolute;
+    width:100px;
+    height:100px;
+    border:4px solid #DD3137;
+    color:#DD3137;
+    line-height:100px;
+    text-align:center;
+    font-size:25px;
+    border-radius:50%;
+    font-weight:normal;
+    transform:rotate(-30deg);
+    top:40%;
+}
+/* 新闻区域 */
+#news {
+  padding: 50px 0;
+  border-bottom: 1px solid #c0c0c0;
+}
+#news .news {
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  border-bottom: 1px dashed #c0c0c0;
+  position: relative;
+  margin-right: 10px;
+  width:;
+}
+#news .col-md-6{
+    width:48%;
+}
+#news .tab-content ul li{
+    margin-top:5px;
+}
+/*合作伙伴*/
+#partner{
+  padding: 30px 0;
+}
+#partner ul {
+  padding: 0;
+  list-style: none;
+  width: 818px;
+  position: relative;
+  overflow: hidden;
+}
+#partner ul li {
+  float: left;
+}
+#partner ul li + li {
+  border-left: 1px dashed #e0e0e0;
+}
+#partner ul li a {
+  padding: 10px 20px;
+  font-size: 50px;
+  color: #888;
+}
+#partner i{
+    font-size:50px;
+    color: #337AB7;
+}
+/*登录状态*/
+.modal-content .modal-header{
+    width:100%;
+    height:80px;
+    position:relative;
+    border:none;
+}
+.modal-header button{
+   position:absolute;
+   top:30px;
+   right:10px;
+}
+.modal-content  .modal-body{
+   width:100%;
+   border-top:1px solid #ccc;
+}
+.modal-content  .modal-body .pic{
+    height:80px;
+    margin-left:60%;
+    background: url(../img/success.png)no-repeat;
+}
+.modal-content  .modal-body p{
+    width:350px;
+    margin-left:20%;
+}
+.modal-content  .modal-body p input{
+    width:280px;
+    height:35px;
+    color:#ccc;
+    border:1px solid #ccc;
+}
+.modal-content  .modal-body p.sub input{
+    margin-left:40px;
+    margin-top:10px;
+    background: #DD3137;
+    color:white;
+}
+
+
+/*媒体查询*/
+/* 当屏幕宽度大于768时，将元素高度设置为340px */
+@media (max-width: 768px)and (min-width:413px) {
+ #ads .carousel-inner > .item  {
+    height: 340px;
+  }
+ #ads .carousel-inner > .item  > img {
+  width: 100%;
+  }
+ #order  .order1 span.toubiao{
+    display:none;
+  }
+  #news .nav li{
+    width:15%;
+    float:left;
+    margin-left:10%;
+    text-align:center;
+  }
+  #news .col-md-6{
+    width:100%;
+    text-align:center;
+  }
+  #product > .container > .wrapp{
+    width:100%;
+    height: 50px
+  }
+  #product > .container > .wrapp > .nav-tabs {
+    width:140%;
+  }
+  #product > .container > .wrapp > .nav-tabs > li > a {
+   font-size:14px;
+  }
+}
+@media (max-width: 414px) and (min-width:361px) {
+  #ads .carousel-inner > .item  {
+    height: 200px;
+  }
+ #ads .carousel-inner > .item  > img {
+   width: 100%;
+  }
+ #order  .order1 {
+    width:100%;
+    font-size:10px;
+  }
+ #order  .order1 span.toubiao{
+    display:none;
+  }
+  #news .nav li{
+    width:15%;
+    float:left;
+    margin-left:10%;
+    text-align:center;
+  }
+  #news .col-md-6{
+    width:100%;
+    text-align:center;
+  }
+   #product > .container > .wrapp{
+    width:100%;
+    height: 50px
+  }
+  #product > .container > .wrapp > .nav-tabs {
+    width:140%;
+  }
+  #product > .container > .wrapp > .nav-tabs > li > a {
+   font-size:14px;
+  }
+} 
+@media (max-width: 360px) and (min-width: 321px){
+  #ads .carousel-inner > .item  {
+    height: 190px;
+  }
+ #ads .carousel-inner > .item  > img {
+   width: 100%;
+  }
+ #order  .order1 {
+    width:100%;
+    font-size:10px;
+  }
+ #order  .order1 span.toubiao{
+    display:none;
+  }
+  #news .nav li{
+    width:20%;
+    float:left;
+    margin-left:5%;
+    text-align:center;
+  }
+  #news .col-md-6{
+    width:100%;
+    text-align:center;
+  }
+   #product > .container > .wrapp{
+    width:100%;
+    height: 50px
+  }
+  #product > .container > .wrapp > .nav-tabs {
+    width:140%;
+  }
+  #product > .container > .wrapp > .nav-tabs > li > a {
+   font-size:14px;
+  }
+} 
+@media (max-width: 320px) {
+  #ads .carousel-inner > .item  {
+    height: 170px;
+  }
+ #ads .carousel-inner > .item  > img {
+   width: 100%;
+  }
+ #order  .order1 {
+    width:100%;
+    font-size:10px;
+  }
+ #order  .order1 span.toubiao{
+    display:none;
+  }
+  #news .nav li{
+    width:20%;
+    float:left;
+    margin-left:5%;
+    text-align:center;
+  }
+  #news .col-md-6{
+    width:100%;
+    text-align:center;
+  }
+   #product > .container > .wrapp{
+    width:100%;
+    height: 50px
+  }
+  #product > .container > .wrapp > .nav-tabs {
+    width:140%;
+  }
+  #product > .container > .wrapp > .nav-tabs > li > a {
+   font-size:14px;
+  }
+} 
